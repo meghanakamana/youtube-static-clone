@@ -1,0 +1,90 @@
+
+  .uber{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 115px; 
+    margin-right: 5px;
+    transition: opacity 2s;
+  }
+
+  .uber:hover{
+    opacity: 0.8;
+  } 
+
+  .amazon{
+    background-color: rgba(255, 217, 28, 0.917);
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 5px;
+  }  
+
+  .amazon:hover{
+    background-color: rgba(197, 168, 21, 0.917);
+  }
+
+  .github{
+    background-color: rgb(62, 175, 62);
+    color: white;
+    font-weight: bold;
+    height: 36px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    transition: box-shadow 1s;
+    cursor: pointer;
+  } 
+
+  .github:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.50);
+  } 
+
+  a{
+    color: blueviolet;
+    margin-left: 50px;
+  }
+  a:hover{
+    color: red;
+  }
+
+  .bootstarp{
+    margin-top: 100px;
+    margin-right: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(97, 38, 153);
+    height: 36px;
+    width: 110px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.2s;
+  } 
+
+  .bootstarp:hover{
+    background-color: rgb(75, 30, 117);
+  } 
+
+  .download{
+    background-color: grey;
+    border: none;
+    color: white;
+    width: 110px;
+    height: 36px;
+    border-radius: 4px; 
+    font-weight: bold;
+  } 
+
+  .download:hover{
+    background-color: white;
+    border-color: grey;
+    color: grey;
+    border-style: solid;
+    border-width: 1px;
+  }
+
